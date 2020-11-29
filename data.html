@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideas in Form - Data</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bd3a83b12b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!---------------------Navbar--------------------->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <i class="far fa-lightbulb inline mr-3"></i>
+    <a class="navbar-brand" href="./index.html">Ideas in Form</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!--ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+      </ul-->
+      <form class="form-inline my-2 my-lg-0 ml-5 pl-5 mr-5 pr-5">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      </form>
+      <div class="nav-user ml-5 pl-5 mr-5 pr-5">
+        <div class="nav-user-left">
+          <i class="far fa-bell mr-2"></i>
+          <i class="far fa-envelope ml-2 mr-2"></i>
+        </div>
+          
+        <a href="./profile.html" class="nav-user-mid">
+          <img src="./assets/img/idea_headshot_4_.jpg" alt="Headshot" class="profile-pic-sm">
+        </a>
+        <div class="nav-user-right">
+          <h5>Mary Anne</h5>
+          <p>@MaryAnne</p>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!---------------------Data Section--------------------->
+    <div class="container data-container mt-4">
+        <div class="row data-row">
+            <div class="col-md-5 data-left">
+                <img src="./assets/img/idea_headshot_4_.jpg" alt="Headshot" class="profile-pic-md align-self-center">
+                <h3 class="align-self-center">Mary Anne</h3>
+                <p class="align-self-center">Harvester</p>
+                <h4 class="data-title mt-2 mb-2"><span>Personal Info</span></h4>
+                <ul class="data-info-section list-group list-group-flush mt-2 mb-4">
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div class="item-left d-flex">
+                            <i class="fas fa-user mr-2"></i>
+                            <h5 class="font-weight-bold">Age</h5>
+                        </div>
+                        <p>32</p>
+                        <div class="btn-group btn-group-toggle mb-2" data-toggle="buttons">
+                            <label class="btn btn-x active">
+                                <input type="radio" name="options" id="option1" checked>Show
+                            </label>
+                            <label class="btn btn-x">
+                                <input type="radio" name="options" id="option2">Hide
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div class="item-left d-flex">
+                            <i class="far fa-clock mr-2"></i>
+                            <h5 class="font-weight-bold">Time Active</h5>
+                        </div>
+                        <p>3 Years</p>
+                        <div class="btn-group btn-group-toggle mb-2" data-toggle="buttons">
+                            <label class="btn btn-x">
+                                <input type="radio" name="options" id="option1">Show
+                            </label>
+                            <label class="btn btn-x active">
+                                <input type="radio" name="options" id="option2" checked>Hide
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div class="item-left d-flex">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <h5 class="font-weight-bold">Location</h5>
+                        </div>
+                        <p>Laredo, Texas</p>
+                        <div class="btn-group btn-group-toggle mb-2" data-toggle="buttons">
+                            <label class="btn btn-x active">
+                                <input type="radio" name="options" id="option1" checked>Show
+                            </label>
+                            <label class="btn btn-x">
+                                <input type="radio" name="options" id="option2">Hide
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div class="item-left d-flex">
+                            <i class="far fa-address-card mr-2"></i>
+                            <h5 class="font-weight-bold">Specialty</h5>
+                        </div>
+                        <p>Farming/Produce</p>
+                        <div class="btn-group btn-group-toggle mb-2" data-toggle="buttons">
+                            <label class="btn btn-x">
+                                <input type="radio" name="options" id="option1">Show
+                            </label>
+                            <label class="btn btn-x active">
+                                <input type="radio" name="options" id="option2" checked>Hide
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div class="item-left d-flex">
+                            <i class="fas fa-users mr-2"></i>
+                            <h5 class="font-weight-bold">Employment</h5>
+                        </div>
+                        <p>Yes</p>
+                        <div class="btn-group btn-group-toggle mb-2" data-toggle="buttons">
+                            <label class="btn btn-x active">
+                                <input type="radio" name="options" id="option1" checked>Show
+                            </label>
+                            <label class="btn btn-x">
+                                <input type="radio" name="options" id="option2">Hide
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+
+                <h4 class="data-title"><span>Experience</span></h4>
+                <ul class="data-info-section list-group list-group-flush mt-2 mb-4">
+                    <li class="list-group-item d-flex justify-content-between">
+                        <h5 class="font-weight-bold">Collaborations</h5>
+                        <p>12</p>
+                        <div class="btn-group btn-group-toggle mb-2" data-toggle="buttons">
+                            <label class="btn btn-x">
+                                <input type="radio" name="options" id="option1">Show
+                            </label>
+                            <label class="btn btn-x active">
+                                <input type="radio" name="options" id="option2" checked>Hide
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <h5 class="font-weight-bold">Supporters</h5>
+                        <p>20</p>
+                        <div class="btn-group btn-group-toggle mb-2" data-toggle="buttons">
+                            <label class="btn btn-x active">
+                                <input type="radio" name="options" id="option1" checked>Show
+                            </label>
+                            <label class="btn btn-x">
+                                <input type="radio" name="options" id="option2">Hide
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <h5 class="font-weight-bold">Dependents</h5>
+                        <p>400</p>
+                        <div class="btn-group btn-group-toggle mb-2" data-toggle="buttons">
+                            <label class="btn btn-x">
+                                <input type="radio" name="options" id="option1">Show
+                            </label>
+                            <label class="btn btn-x active">
+                                <input type="radio" name="options" id="option2" checked>Hide
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <h5 class="font-weight-bold">Skill Level</h5>
+                        <p>Expert</p>
+                        <div class="btn-group btn-group-toggle mb-2" data-toggle="buttons">
+                            <label class="btn btn-x active">
+                                <input type="radio" name="options" id="option1" checked>Show
+                            </label>
+                            <label class="btn btn-x">
+                                <input type="radio" name="options" id="option2">Hide
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+                <h4 class="data-title"><span>Bio</span></h4>
+                <div class="data-bio-section">
+                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pellentesque diam nibh, vitae malesuada orci tempor in. Aliquam vestibulum, ante eu bibendum hendrerit, leo nibh gravida tortor, eget eleifend lacus turpis ut enim. Ut at vehicula quam. Donec auctor est lectus, at sagittis ex ultrices vestibulum. Ut augue mauris, facilisis a lorem sit amet, volutpat bibendum turpis.</p>
+                    <div class="btn-group btn-group-toggle mb-2" data-toggle="buttons">
+                        <label class="btn btn-x">
+                            <input type="radio" name="options" id="option1">Show
+                        </label>
+                        <label class="btn btn-x active">
+                            <input type="radio" name="options" id="option2" checked>Hide
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 data-right">
+                <div class="data-recent-events">
+                    <h3>Recent Activity</h3>
+                    <div id="carouselExampleControls" class="carousel slide data-recent-carousel" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item event-list active">
+                                <div class="event-item ml-3 mr-2">
+                                    <div class="event-item-top">
+                                        <i class="far fa-calendar-alt"></i>
+                                        <h1>30</h1>
+                                        <h5>Nov</h5>
+                                    </div>
+                                    <div class="event-item-mid">
+                                        Activity Type: Distribution
+                                    </div>
+                                    <div class="event-item-btm">
+                                        <img src="./assets/img/idea_headshot_0_.jpg" alt="Headshot" class="profile-pic-xs">
+                                        <img src="./assets/img/idea_headshot_1_.jpg" alt="Headshot" class="profile-pic-xs">
+                                        <img src="./assets/img/idea_headshot_2_.jpg" alt="Headshot" class="profile-pic-xs">
+                                        <img src="./assets/img/idea_headshot_3_.jpg" alt="Headshot" class="profile-pic-xs">
+                                        <img src="./assets/img/idea_headshot_5_.jpg" alt="Headshot" class="profile-pic-xs">
+                                    </div>
+                                </div>
+                                <div class="event-item mr-2">
+                                    <div class="event-item-top">
+                                        <i class="far fa-calendar-alt"></i>
+                                        <h1>12</h1>
+                                        <h5>Nov</h5>
+                                    </div>
+                                    <div class="event-item-mid">
+                                        Activity Type: Community Meeting
+                                    </div>
+                                    <div class="event-item-btm">
+                                        <img src="./assets/img/idea_headshot_5_.jpg" alt="Headshot" class="profile-pic-xs">
+                                        <img src="./assets/img/idea_headshot_0_.jpg" alt="Headshot" class="profile-pic-xs">
+                                    </div>
+                                </div>
+                                <div class="event-item mr-2">
+                                    <div class="event-item-top">
+                                        <i class="far fa-calendar-alt"></i>
+                                        <h1>11</h1>
+                                        <h5>Oct</h5>
+                                    </div>
+                                    <div class="event-item-mid">
+                                        Activity Type: Farmer's Market
+                                    </div>
+                                    <div class="event-item-btm">
+                                        
+                                        <img src="./assets/img/idea_headshot_5_.jpg" alt="Headshot" class="profile-pic-xs">
+                                        <img src="./assets/img/idea_headshot_0_.jpg" alt="Headshot" class="profile-pic-xs">
+                                        <img src="./assets/img/idea_headshot_6_.jpg" alt="Headshot" class="profile-pic-xs">
+                                        <img src="./assets/img/idea_headshot_1_.jpg" alt="Headshot" class="profile-pic-xs">
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="carousel-item event-list" >
+                                <div class="event-item ml-3 mr-2">
+                                    <div class="event-item-top">
+                                        <i class="far fa-calendar-alt"></i>
+                                        <h1>03</h1>
+                                        <h5>Oct</h5>
+                                    </div>
+                                    <div class="event-item-mid">
+                                        Activity Type: Quality Screening
+                                    </div>
+                                    <div class="event-item-btm">
+                                        <img src="./assets/img/idea_headshot_1_.jpg" alt="Headshot" class="profile-pic-xs">
+                                        <img src="./assets/img/idea_headshot_2_.jpg" alt="Headshot" class="profile-pic-xs">
+                                        <img src="./assets/img/idea_headshot_3_.jpg" alt="Headshot" class="profile-pic-xs">
+                                        <img src="./assets/img/idea_headshot_5_.jpg" alt="Headshot" class="profile-pic-xs">
+                                    </div>
+                                </div>
+                                <div class="event-item mr-2">
+                                    <div class="event-item-top">
+                                        <i class="far fa-calendar-alt"></i>
+                                        <h1>01</h1>
+                                        <h5>Sep</h5>
+                                    </div>
+                                    <div class="event-item-mid">
+                                        Activity Type: Distribution
+                                    </div>
+                                    <div class="event-item-btm">
+                                        <img src="./assets/img/idea_headshot_5_.jpg" alt="Headshot" class="profile-pic-xs">
+                                        <img src="./assets/img/idea_headshot_0_.jpg" alt="Headshot" class="profile-pic-xs">
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                    </div>
+                </div>
+
+                <div class="data-inventory mt-4">
+                    <h3>Inventory</h3>
+                    <div class="row data-inventory-row">
+                        <div class="col-md data-inventory-item mt-2 mb-2">
+                            <i class="fas fa-box-open"></i>
+                            <div class="data-inventory-item-text">
+                                <h5>To Be Packaged</h5>
+                                <p class="font-weight-bold">106</p>
+                            </div>
+                        </div>
+                        <div class="col-md data-inventory-item mt-2 mb-2">
+                            <i class="fas fa-truck"></i>
+                            <div class="data-inventory-item-text">
+                                <h5>To Be Shipped</h5>
+                                <p class="font-weight-bold">16</p>
+                            </div>
+                        </div>
+                        <div class="col-md data-inventory-item mt-2 mb-2">
+                            <i class="fas fa-truck-loading"></i>
+                            <div class="data-inventory-item-text">
+                                <h5>To Be Deivered</h5>
+                                <p class="font-weight-bold">20</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="data-dist mt-4 mb-2">
+                    <h3>Top Distributed Items</h3>
+                    <div class="row data-dist-row">
+                        <div class="col-md data-dist-item">
+                            <div class="data-dist-item-img" style="background-image:url('./assets/img/idea_veg_0.jpg');"></div>
+                            <h5>Carrots</h5>
+                            <p class="font-weight-bold">20,090 pcs</p>
+                        </div>
+                        <div class="col-md data-dist-item">
+                            <div class="data-dist-item-img" style="background-image:url('./assets/img/idea_veg_1.jpg');"></div>
+                            <h5>Carrots</h5>
+                            <p class="font-weight-bold">20,090 pcs</p>
+                        </div>
+                        <div class="col-md data-dist-item">
+                            <div class="data-dist-item-img" style="background-image:url('./assets/img/idea_veg_2.jpg');"></div>
+                            <h5>Carrots</h5>
+                            <p class="font-weight-bold">20,090 pcs</p>
+                        </div>
+                        <div class="col-md data-dist-item">
+                            <div class="data-dist-item-img" style="background-image:url('./assets/img/idea_veg_3.jpg');"></div>
+                            <h5>Carrots</h5>
+                            <p class="font-weight-bold">20,090 pcs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="data-pie-chart-container mt-4 mb-2">
+                    <h3>Top Distributions by City</h3>
+                    <figure class="data-pie-chart">
+                        <figcaption>
+                            Amsterdam 38<span style="color:#4e79a7"></span><br>
+                            New York 23<span style="color:#f28e2c"></span><br>
+                            Toronto 16<span style="color:#e15759"></span><br>
+                            Phoenix 10<span style="color:#76b7b2"></span><br>
+                            Abuja 6<span style="color:#59a14f"></span><br>
+                            Manchester 7<span style="color:#edc949"></span>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="data-histo-container mt-4 mb-2">
+                        <h3>Contribution Percentage</h3>
+                        
+                        <p class="font-weight-bold">Inventory Cycle Time</p>
+                        <div class="data-histo">
+                          <div class="data-histo-bar histo-green">90%</div>
+                        </div>
+                        
+                        <p class="font-weight-bold">Record Days</p>
+                        <div class="data-histo">
+                          <div class="data-histo-bar histo-blue">80%</div>
+                        </div>
+                        
+                        <p class="font-weight-bold">Inventory Days</p>
+                        <div class="data-histo">
+                          <div class="data-histo-bar histo-red">65%</div>
+                        </div>
+                        
+                        <p class="font-weight-bold">Exchange Days</p>
+                        <div class="data-histo mb-4">
+                          <div class="data-histo-bar histo-grey">60%</div>
+                        </div>
+                </div>
+
+                <div class="data-meta mt-4 mb-2">
+                    <h3>Download Metadata</h3>
+
+                    <div class="data-meta-container">
+                        <p class="data-meta-msg">Click the button below to download your metadata. This include all of the actions you have made on this platform as well as the actions that other users have have made in relation to you. You may also specify a date range in order to refine the results. </p>
+                    <p class="data-msg-warning font-weight-bold"> Warning: downloading all of your metadata may take a while to complete and the file size may be very large.</p>
+                    <a  href="#"><button type="button" class="btn btn-0 btn-lg mt-4 mb-4">Download</button></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------Footer------------------>
+<footer class="page-footer font-small pt-4">
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Ideas in Form</h5>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase">More</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Network</a>
+              </li>
+              <li>
+                <a href="./data.html">Data</a>
+              </li>
+            </ul>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase">About</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">FAQ</a>
+              </li>
+              <li>
+                <a href="#!">Social</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="#"> Ideas in Form</a>
+    </div>
+  
+  </footer>
+</body>
+</html>
