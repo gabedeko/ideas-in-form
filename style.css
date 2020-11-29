@@ -174,6 +174,18 @@ a:hover {
 	margin-top: -32px;
 }
 
+@media (max-width: 767.98px) {
+	.timeline-container .row .post-container .post-top .post-top-header .post-top-header-left {
+		display: flex;
+	}
+
+	.timeline-container .row .post-container .post-top .post-top-header .post-top-header-left .profile-pic-sm {
+		margin-top: 0;
+		align-self: center;
+		margin-right: 8px;
+	}
+}
+
 .timeline-container .row .post-container .post-top .post-top-header .post-top-header-right {
 	display: flex;
 	justify-content: end;
@@ -227,6 +239,12 @@ a:hover {
 	height: 240px;
 }
 
+@media (max-width: 767.98px) {
+	.profile-pic-md {
+		margin: 0 auto;
+	}
+}
+
 .profile-cover {
 	background-size: cover;
 	background-position: 50% 50%;
@@ -245,6 +263,17 @@ a:hover {
 	width: 100%;
 	flex-direction: row;
 	justify-content: center;
+}
+
+@media (max-width: 767.98px) {
+	.profile-container .profile-menu-row .nav {
+		align-items: center;
+		justify-content: center;
+	}
+
+	.profile-container .profile-menu-row .nav .nav-item {
+		padding: 4px 0;
+	}
 }
 
 .profile-container .profile-content-row .profile-content-row-left .profile-intro-container {
@@ -322,6 +351,18 @@ a:hover {
 
 .profile-container .profile-content-row .profile-content-row-right .profile-post-container .post-top .post-top-header .post-top-header-left .profile-pic-sm {
 	margin-top: -32px;
+}
+
+@media (max-width: 767.98px) {
+	.profile-container .profile-content-row .profile-content-row-right .profile-post-container .post-top .post-top-header .post-top-header-left {
+		display: flex;
+	}
+
+	.profile-container .profile-content-row .profile-content-row-right .profile-post-container .post-top .post-top-header .post-top-header-left .profile-pic-sm {
+		margin-top: 0;
+		align-self: center;
+		margin-right: 8px;
+	}
 }
 
 .profile-container .profile-content-row .profile-content-row-right .profile-post-container .post-top .post-top-header .post-top-header-right {
@@ -455,6 +496,12 @@ a:hover {
 	text-align: center;
 }
 
+@media (max-width: 767.98px) {
+	.data-right .data-inventory .data-inventory-row .data-inventory-item {
+		justify-content: center;
+	}
+}
+
 .data-right .data-dist {
 	border: 1px solid #cacfd5;
 	padding: 8px;
@@ -481,6 +528,12 @@ a:hover {
 	padding: 8px;
 }
 
+@media (max-width: 767.98px) {
+	.data-right .data-pie-chart-container {
+		padding-bottom: 64px;
+	}
+}
+
 .data-right .data-pie-chart-container .data-pie-chart {
 	background: radial-gradient(circle closest-side, transparent 66%, white 0), conic-gradient(#4e79a7 0, #4e79a7 38%, #f28e2c 0, #f28e2c 61%, #e15759 0, #e15759 77%, #76b7b2 0, #76b7b2 87%, #59a14f 0, #59a14f 93%, #edc949 0, #edc949 100%);
 	position: relative;
@@ -500,6 +553,12 @@ a:hover {
 	right: 1em;
 	font-size: smaller;
 	text-align: right;
+}
+
+@media (max-width: 767.98px) {
+	.data-right .data-pie-chart-container .data-pie-chart figcaption {
+		bottom: -48px;
+	}
 }
 
 .data-right .data-pie-chart-container .data-pie-chart span:after {
